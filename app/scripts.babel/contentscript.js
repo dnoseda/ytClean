@@ -13,6 +13,9 @@ let cleanYt = function() {
     let elementTitle = element.querySelector('span#video-title')
     if(elementTitle){
       let title = elementTitle.innerHTML.split('\n').join().toLowerCase();
+      // TODO: Que quede configurado qué puede borrar
+      // TODO: que borre en una busqueda
+      // TODO Que borre en sugeridos
       if(title.match(/dark souls/) || title.match(/ds3/)){
          let parent = element.parentElement;
          parent.removeChild(element);
