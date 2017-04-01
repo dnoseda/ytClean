@@ -15,7 +15,7 @@ let cleanYt = function() {
       let title = elementTitle.innerHTML.split('\n').join().toLowerCase();
       // TODO: Que quede configurado qué puede borrar
       // TODO: que borre en una busqueda
-      // TODO Que borre en sugeridos
+      // TODO: Que borre en sugeridos
       if(title.match(/dark souls/) || title.match(/ds3/)){
          let parent = element.parentElement;
          parent.removeChild(element);
