@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "YtClean",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Youtube Cleanner",
+    "description": "The description of the application"
+  }
+}
