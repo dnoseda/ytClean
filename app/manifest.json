@@ -16,14 +16,12 @@
   },
   "permissions": [
     "tabs",
-    "http://*/*",
-    "https://*/*"
+    "*://www.youtube.com/*",
   ],
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "*://www.youtube.com/*",
       ],
       "js": [
         "scripts/contentscript.js"
